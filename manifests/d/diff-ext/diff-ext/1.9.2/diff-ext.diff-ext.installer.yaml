@@ -1,0 +1,24 @@
+# Created using wingetcreate 1.5.3.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: diff-ext.diff-ext
+PackageVersion: 1.9.2
+Platform:
+- Windows.Desktop
+ReleaseDate: 2010-08-09
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+InstallerType: inno
+Installers:
+- InstallerUrl: https://sourceforge.net/projects/diff-ext/files/Binaries/1.9.2/diff-ext-1.9.2.exe/download
+  Architecture: x86
+  InstallerSha256: 01FC15031E8A535FEAE228ABBE7F30971DDD666702ADB722ED026E804A76092E
+- InstallerUrl: https://sourceforge.net/projects/diff-ext/files/Binaries/1.9.2/diff-ext-1.9.2.exe/download
+  Architecture: x64
+  InstallerSha256: 01FC15031E8A535FEAE228ABBE7F30971DDD666702ADB722ED026E804A76092E
+ManifestType: installer
+ManifestVersion: 1.5.0

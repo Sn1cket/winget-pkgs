@@ -1,0 +1,22 @@
+# Created using wingetcreate 1.5.3.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.5.0.schema.json
+
+PackageIdentifier: diff-ext.diff-ext
+PackageVersion: 1.9.2
+PackageLocale: en-US
+Publisher: diff-ext
+PublisherUrl: https://diff-ext.sourceforge.net
+PublisherSupportUrl: https://sourceforge.net/p/diff-ext/bugs/
+PackageName: diff-ext
+PackageUrl: https://diff-ext.sourceforge.net
+License: ?
+LicenseUrl: https://sourceforge.net/p/diff-ext/diff-ext/ci/default/tree/LICENSE
+Copyright: Copyright © 2006-2023 diff-ext.
+ShortDescription: Shell extension that makes it possible to launch file comparison tools
+Description: |-
+  This shell extension (diff-ext) makes it possible to launch file comparison tool for 2
+  or 3 files (depending on the tool) in the same directory or "save" a file(s) for later
+  comparison. It acts as external most recent used (MRU) file list for the comparison tool. 
+Moniker: diff-ext
+ManifestType: defaultLocale
+ManifestVersion: 1.5.0
